@@ -233,7 +233,7 @@ def test_epoch(args, model, test_loader, rank, world_size):
 def main(rank, world_size):
 
     print("Logging into Huggingface...")
-    login("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")
+    login("your_token_here")
     print("Starting...")
 
     args = parser.parse_args()
